@@ -6,3 +6,9 @@ This repository is intended to test [View Transitions](https://github.com/WICG/v
 - Original site:
   - https://dotnet.github.io/docfx
 
+> [!NOTE]
+> Currently it requires `viewTransition API for navigations` feature enabled manually on Chrome.
+
+
+
+
