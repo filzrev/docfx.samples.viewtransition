@@ -1,0 +1,33 @@
+### YamlMime:ApiPage
+title: Namespace Docfx
+body:
+- api1: Namespace Docfx
+  id: Docfx
+  metadata:
+    uid: Docfx
+    commentId: N:Docfx
+- h3: Namespaces
+- parameters:
+  - type:
+      text: Docfx.Dotnet
+      url: Docfx.Dotnet.html
+- h3: Classes
+- parameters:
+  - type:
+      text: BuildOptions
+      url: Docfx.BuildOptions.html
+    description: Provides options to be used with <xref href="Docfx.Docset.Build(System.String%2cDocfx.BuildOptions)" data-throw-if-not-resolved="false"></xref>.
+  - type:
+      text: Docset
+      url: Docfx.Docset.html
+    description: >-
+      Provides access to a set of documentations
+
+      and their associated configs, compilations and models.
+- h3: Enums
+- parameters:
+  - type:
+      text: MemberLayout
+      url: Docfx.MemberLayout.html
+    description: Specifies the layout of members.
+languageId: csharp

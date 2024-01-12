@@ -1,0 +1,24 @@
+### YamlMime:ApiPage
+title: Enum LinkType
+body:
+- api1: Enum LinkType
+  id: Docfx_DataContracts_ManagedReference_LinkType
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/LinkInfo.cs#L43
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.LinkType
+    commentId: T:Docfx.DataContracts.ManagedReference.LinkType
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public enum LinkType
+- h2: Fields
+- parameters:
+  - name: CRef
+    default: "0"
+  - name: HRef
+    default: "1"
+languageId: csharp

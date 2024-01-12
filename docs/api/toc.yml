@@ -1,0 +1,54 @@
+### YamlMime:TableOfContent
+- name: Docfx
+  href: Docfx.yml
+  items:
+  - name: Classes
+  - name: BuildOptions
+    href: Docfx.BuildOptions.yml
+  - name: Docset
+    href: Docfx.Docset.yml
+  - name: Enums
+  - name: MemberLayout
+    href: Docfx.MemberLayout.yml
+- name: Docfx.DataContracts.ManagedReference
+  href: Docfx.DataContracts.ManagedReference.yml
+  items:
+  - name: Classes
+  - name: AdditionalNotes
+    href: Docfx.DataContracts.ManagedReference.AdditionalNotes.yml
+  - name: ApiParameter
+    href: Docfx.DataContracts.ManagedReference.ApiParameter.yml
+  - name: ArgumentInfo
+    href: Docfx.DataContracts.ManagedReference.ArgumentInfo.yml
+  - name: AttributeInfo
+    href: Docfx.DataContracts.ManagedReference.AttributeInfo.yml
+  - name: ExceptionInfo
+    href: Docfx.DataContracts.ManagedReference.ExceptionInfo.yml
+  - name: ItemViewModel
+    href: Docfx.DataContracts.ManagedReference.ItemViewModel.yml
+  - name: LinkInfo
+    href: Docfx.DataContracts.ManagedReference.LinkInfo.yml
+  - name: NamedArgumentInfo
+    href: Docfx.DataContracts.ManagedReference.NamedArgumentInfo.yml
+  - name: PageViewModel
+    href: Docfx.DataContracts.ManagedReference.PageViewModel.yml
+  - name: SyntaxDetailViewModel
+    href: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.yml
+  - name: Enums
+  - name: LinkType
+    href: Docfx.DataContracts.ManagedReference.LinkType.yml
+  - name: MemberType
+    href: Docfx.DataContracts.ManagedReference.MemberType.yml
+  - name: SyntaxLanguage
+    href: Docfx.DataContracts.ManagedReference.SyntaxLanguage.yml
+- name: Docfx.Dotnet
+  href: Docfx.Dotnet.yml
+  items:
+  - name: Classes
+  - name: DotnetApiCatalog
+    href: Docfx.Dotnet.DotnetApiCatalog.yml
+  - name: DotnetApiOptions
+    href: Docfx.Dotnet.DotnetApiOptions.yml
+  - name: Enums
+  - name: SymbolIncludeState
+    href: Docfx.Dotnet.SymbolIncludeState.yml

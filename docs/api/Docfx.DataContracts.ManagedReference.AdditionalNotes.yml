@@ -1,0 +1,98 @@
+### YamlMime:ApiPage
+title: Class AdditionalNotes
+body:
+- api1: Class AdditionalNotes
+  id: Docfx_DataContracts_ManagedReference_AdditionalNotes
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AdditionalNotes.cs#L12
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AdditionalNotes
+    commentId: T:Docfx.DataContracts.ManagedReference.AdditionalNotes
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public class AdditionalNotes
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: AdditionalNotes
+    url: Docfx.DataContracts.ManagedReference.AdditionalNotes.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: Caller
+  id: Docfx_DataContracts_ManagedReference_AdditionalNotes_Caller
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AdditionalNotes.cs#L14
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AdditionalNotes.Caller
+    commentId: P:Docfx.DataContracts.ManagedReference.AdditionalNotes.Caller
+- code: >-
+    [YamlMember(Alias = "caller")]
+
+    [JsonProperty("caller")]
+
+    [JsonPropertyName("caller")]
+
+    public string Caller { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Implementer
+  id: Docfx_DataContracts_ManagedReference_AdditionalNotes_Implementer
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AdditionalNotes.cs#L20
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AdditionalNotes.Implementer
+    commentId: P:Docfx.DataContracts.ManagedReference.AdditionalNotes.Implementer
+- code: >-
+    [YamlMember(Alias = "implementer")]
+
+    [JsonProperty("implementer")]
+
+    [JsonPropertyName("implementer")]
+
+    public string Implementer { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Inheritor
+  id: Docfx_DataContracts_ManagedReference_AdditionalNotes_Inheritor
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AdditionalNotes.cs#L26
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AdditionalNotes.Inheritor
+    commentId: P:Docfx.DataContracts.ManagedReference.AdditionalNotes.Inheritor
+- code: >-
+    [YamlMember(Alias = "inheritor")]
+
+    [JsonProperty("inheritor")]
+
+    [JsonPropertyName("inheritor")]
+
+    public string Inheritor { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+languageId: csharp

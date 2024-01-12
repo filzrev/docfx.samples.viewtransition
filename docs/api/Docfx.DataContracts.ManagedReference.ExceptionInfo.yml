@@ -1,0 +1,102 @@
+### YamlMime:ApiPage
+title: Class ExceptionInfo
+body:
+- api1: Class ExceptionInfo
+  id: Docfx_DataContracts_ManagedReference_ExceptionInfo
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ExceptionInfo.cs#L13
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ExceptionInfo
+    commentId: T:Docfx.DataContracts.ManagedReference.ExceptionInfo
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public class ExceptionInfo
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: ExceptionInfo
+    url: Docfx.DataContracts.ManagedReference.ExceptionInfo.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: CommentId
+  id: Docfx_DataContracts_ManagedReference_ExceptionInfo_CommentId
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ExceptionInfo.cs#L22
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ExceptionInfo.CommentId
+    commentId: P:Docfx.DataContracts.ManagedReference.ExceptionInfo.CommentId
+- code: >-
+    [YamlMember(Alias = "commentId")]
+
+    [JsonProperty("commentId")]
+
+    [JsonPropertyName("commentId")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    public string CommentId { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Description
+  id: Docfx_DataContracts_ManagedReference_ExceptionInfo_Description
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ExceptionInfo.cs#L28
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ExceptionInfo.Description
+    commentId: P:Docfx.DataContracts.ManagedReference.ExceptionInfo.Description
+- code: >-
+    [YamlMember(Alias = "description")]
+
+    [JsonProperty("description")]
+
+    [JsonPropertyName("description")]
+
+    public string Description { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Type
+  id: Docfx_DataContracts_ManagedReference_ExceptionInfo_Type
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ExceptionInfo.cs#L15
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ExceptionInfo.Type
+    commentId: P:Docfx.DataContracts.ManagedReference.ExceptionInfo.Type
+- code: >-
+    [YamlMember(Alias = "type")]
+
+    [MergeOption(MergeOption.MergeKey)]
+
+    [JsonProperty("type")]
+
+    [JsonPropertyName("type")]
+
+    public string Type { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+languageId: csharp

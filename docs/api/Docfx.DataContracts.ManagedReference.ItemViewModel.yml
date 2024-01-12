@@ -1,0 +1,1009 @@
+### YamlMime:ApiPage
+title: Class ItemViewModel
+body:
+- api1: Class ItemViewModel
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L16
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel
+    commentId: T:Docfx.DataContracts.ManagedReference.ItemViewModel
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: 'public class ItemViewModel : IOverwriteDocumentViewModel'
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: ItemViewModel
+    url: Docfx.DataContracts.ManagedReference.ItemViewModel.html
+- h4: Implements
+- list:
+  - IOverwriteDocumentViewModel
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: AdditionalNotes
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_AdditionalNotes
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L268
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.AdditionalNotes
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.AdditionalNotes
+- code: >-
+    [YamlMember(Alias = "additionalNotes")]
+
+    [JsonProperty("additionalNotes")]
+
+    [JsonPropertyName("additionalNotes")]
+
+    public AdditionalNotes AdditionalNotes { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: AdditionalNotes
+      url: Docfx.DataContracts.ManagedReference.AdditionalNotes.html
+- api3: AssemblyNameList
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_AssemblyNameList
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L250
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.AssemblyNameList
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.AssemblyNameList
+- code: >-
+    [YamlMember(Alias = "assemblies")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    [JsonProperty("assemblies")]
+
+    [JsonPropertyName("assemblies")]
+
+    public List<string> AssemblyNameList { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Attributes
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Attributes
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L366
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Attributes
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Attributes
+- code: >-
+    [YamlMember(Alias = "attributes")]
+
+    [JsonProperty("attributes")]
+
+    [JsonPropertyName("attributes")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    public List<AttributeInfo> Attributes { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: AttributeInfo
+      url: Docfx.DataContracts.ManagedReference.AttributeInfo.html
+    - '>'
+- api3: Children
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Children
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L50
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Children
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Children
+- code: >-
+    [YamlMember(Alias = "children")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    [JsonProperty("children")]
+
+    [JsonPropertyName("children")]
+
+    public List<string> Children { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: CommentId
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_CommentId
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L24
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.CommentId
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.CommentId
+- code: >-
+    [YamlMember(Alias = "commentId")]
+
+    [JsonProperty("commentId")]
+
+    [JsonPropertyName("commentId")]
+
+    public string CommentId { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Conceptual
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Conceptual
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L354
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Conceptual
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Conceptual
+- markdown: The markdown content from the overwrite document
+- code: >-
+    [YamlMember(Alias = "conceptual")]
+
+    [JsonProperty("conceptual")]
+
+    [JsonPropertyName("conceptual")]
+
+    public string Conceptual { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: DerivedClasses
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_DerivedClasses
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L326
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.DerivedClasses
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.DerivedClasses
+- code: >-
+    [YamlMember(Alias = "derivedClasses")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    [JsonProperty("derivedClasses")]
+
+    [JsonPropertyName("derivedClasses")]
+
+    public List<string> DerivedClasses { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Documentation
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Documentation
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L245
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Documentation
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Documentation
+- markdown: The details for current overwrite document, containing the start/end line numbers, file path, and git info.
+- code: >-
+    [YamlMember(Alias = "documentation")]
+
+    [JsonProperty("documentation")]
+
+    [JsonPropertyName("documentation")]
+
+    public SourceDetail Documentation { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - SourceDetail
+- api3: Examples
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Examples
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L279
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Examples
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Examples
+- code: >-
+    [YamlMember(Alias = "example")]
+
+    [JsonProperty("example")]
+
+    [JsonPropertyName("example")]
+
+    [MergeOption(MergeOption.Replace)]
+
+    public List<string> Examples { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Exceptions
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Exceptions
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L303
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Exceptions
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Exceptions
+- code: >-
+    [YamlMember(Alias = "exceptions")]
+
+    [JsonProperty("exceptions")]
+
+    [JsonPropertyName("exceptions")]
+
+    public List<ExceptionInfo> Exceptions { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: ExceptionInfo
+      url: Docfx.DataContracts.ManagedReference.ExceptionInfo.html
+    - '>'
+- api3: ExtensionMethods
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_ExtensionMethods
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L347
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.ExtensionMethods
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.ExtensionMethods
+- code: >-
+    [YamlMember(Alias = "extensionMethods")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    [JsonProperty("extensionMethods")]
+
+    [JsonPropertyName("extensionMethods")]
+
+    public List<string> ExtensionMethods { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: FullName
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_FullName
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L179
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.FullName
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.FullName
+- code: >-
+    [YamlMember(Alias = "fullName")]
+
+    [JsonProperty("fullName")]
+
+    [JsonPropertyName("fullName")]
+
+    public string FullName { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: FullNameForCSharp
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_FullNameForCSharp
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L189
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.FullNameForCSharp
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.FullNameForCSharp
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string FullNameForCSharp { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: FullNameForVB
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_FullNameForVB
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L212
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.FullNameForVB
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.FullNameForVB
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string FullNameForVB { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: FullNames
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_FullNames
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L184
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.FullNames
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.FullNames
+- code: >-
+    [ExtensibleMember("fullName.")]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public SortedList<string, string> FullNames { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: SortedList
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - ','
+    - " "
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Href
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Href
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L57
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Href
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Href
+- code: >-
+    [YamlMember(Alias = "href")]
+
+    [JsonProperty("href")]
+
+    [JsonPropertyName("href")]
+
+    public string Href { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Id
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Id
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L29
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Id
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Id
+- code: >-
+    [YamlMember(Alias = "id")]
+
+    [JsonProperty("id")]
+
+    [JsonPropertyName("id")]
+
+    public string Id { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Implements
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Implements
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L333
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Implements
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Implements
+- code: >-
+    [YamlMember(Alias = "implements")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    [JsonProperty("implements")]
+
+    [JsonPropertyName("implements")]
+
+    public List<string> Implements { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Inheritance
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Inheritance
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L319
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Inheritance
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Inheritance
+- code: >-
+    [YamlMember(Alias = "inheritance")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    [JsonProperty("inheritance")]
+
+    [JsonPropertyName("inheritance")]
+
+    public List<string> Inheritance { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: InheritedMembers
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_InheritedMembers
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L340
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.InheritedMembers
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.InheritedMembers
+- code: >-
+    [YamlMember(Alias = "inheritedMembers")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    [JsonProperty("inheritedMembers")]
+
+    [JsonPropertyName("inheritedMembers")]
+
+    public List<string> InheritedMembers { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: IsExplicitInterfaceImplementation
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_IsExplicitInterfaceImplementation
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L34
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.IsExplicitInterfaceImplementation
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.IsExplicitInterfaceImplementation
+- code: >-
+    [YamlMember(Alias = "isEii")]
+
+    [JsonProperty("isEii")]
+
+    [JsonPropertyName("isEii")]
+
+    public bool IsExplicitInterfaceImplementation { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: bool
+      url: https://learn.microsoft.com/dotnet/api/system.boolean
+- api3: IsExtensionMethod
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_IsExtensionMethod
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L39
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.IsExtensionMethod
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.IsExtensionMethod
+- code: >-
+    [YamlMember(Alias = "isExtensionMethod")]
+
+    [JsonProperty("isExtensionMethod")]
+
+    [JsonPropertyName("isExtensionMethod")]
+
+    public bool IsExtensionMethod { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: bool
+      url: https://learn.microsoft.com/dotnet/api/system.boolean
+- api3: Metadata
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Metadata
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L372
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Metadata
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Metadata
+- code: >-
+    [ExtensibleMember]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public Dictionary<string, object> Metadata { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: Dictionary
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - ','
+    - " "
+    - text: object
+      url: https://learn.microsoft.com/dotnet/api/system.object
+    - '>'
+- api3: Name
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Name
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L67
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Name
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Name
+- code: >-
+    [YamlMember(Alias = "name")]
+
+    [JsonProperty("name")]
+
+    [JsonPropertyName("name")]
+
+    public string Name { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: NameForCSharp
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_NameForCSharp
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L77
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.NameForCSharp
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.NameForCSharp
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string NameForCSharp { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: NameForVB
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_NameForVB
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L100
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.NameForVB
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.NameForVB
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string NameForVB { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: NameWithType
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_NameWithType
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L123
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.NameWithType
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.NameWithType
+- code: >-
+    [YamlMember(Alias = "nameWithType")]
+
+    [JsonProperty("nameWithType")]
+
+    [JsonPropertyName("nameWithType")]
+
+    public string NameWithType { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: NameWithTypeForCSharp
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_NameWithTypeForCSharp
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L133
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.NameWithTypeForCSharp
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.NameWithTypeForCSharp
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string NameWithTypeForCSharp { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: NameWithTypeForVB
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_NameWithTypeForVB
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L156
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.NameWithTypeForVB
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.NameWithTypeForVB
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string NameWithTypeForVB { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Names
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Names
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L72
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Names
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Names
+- code: >-
+    [ExtensibleMember("name.")]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public SortedList<string, string> Names { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: SortedList
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - ','
+    - " "
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: NamesWithType
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_NamesWithType
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L128
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.NamesWithType
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.NamesWithType
+- code: >-
+    [ExtensibleMember("nameWithType.")]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public SortedList<string, string> NamesWithType { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: SortedList
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - ','
+    - " "
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: NamespaceName
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_NamespaceName
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L256
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.NamespaceName
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.NamespaceName
+- code: >-
+    [YamlMember(Alias = "namespace")]
+
+    [JsonProperty("namespace")]
+
+    [JsonPropertyName("namespace")]
+
+    public string NamespaceName { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Overload
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Overload
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L297
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Overload
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Overload
+- code: >-
+    [YamlMember(Alias = "overload")]
+
+    [JsonProperty("overload")]
+
+    [JsonPropertyName("overload")]
+
+    public string Overload { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Overridden
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Overridden
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L291
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Overridden
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Overridden
+- code: >-
+    [YamlMember(Alias = "overridden")]
+
+    [JsonProperty("overridden")]
+
+    [JsonPropertyName("overridden")]
+
+    public string Overridden { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Parent
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Parent
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L44
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Parent
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Parent
+- code: >-
+    [YamlMember(Alias = "parent")]
+
+    [JsonProperty("parent")]
+
+    [JsonPropertyName("parent")]
+
+    public string Parent { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Platform
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Platform
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L360
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Platform
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Platform
+- code: >-
+    [YamlMember(Alias = "platform")]
+
+    [JsonProperty("platform")]
+
+    [JsonPropertyName("platform")]
+
+    [MergeOption(MergeOption.Replace)]
+
+    public List<string> Platform { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Remarks
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Remarks
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L273
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Remarks
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Remarks
+- code: >-
+    [YamlMember(Alias = "remarks")]
+
+    [JsonProperty("remarks")]
+
+    [JsonPropertyName("remarks")]
+
+    public string Remarks { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: SeeAlsos
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_SeeAlsos
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L308
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.SeeAlsos
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.SeeAlsos
+- code: >-
+    [YamlMember(Alias = "seealso")]
+
+    [JsonProperty("seealso")]
+
+    [JsonPropertyName("seealso")]
+
+    public List<LinkInfo> SeeAlsos { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: LinkInfo
+      url: Docfx.DataContracts.ManagedReference.LinkInfo.html
+    - '>'
+- api3: SeeAlsosUidReference
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_SeeAlsosUidReference
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L313
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.SeeAlsosUidReference
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.SeeAlsosUidReference
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public List<string> SeeAlsosUidReference { get; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Source
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Source
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L240
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Source
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Source
+- code: >-
+    [YamlMember(Alias = "source")]
+
+    [JsonProperty("source")]
+
+    [JsonPropertyName("source")]
+
+    public SourceDetail Source { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - SourceDetail
+- api3: Summary
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Summary
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L262
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Summary
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Summary
+- code: >-
+    [YamlMember(Alias = "summary")]
+
+    [JsonProperty("summary")]
+
+    [JsonPropertyName("summary")]
+
+    public string Summary { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: SupportedLanguages
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_SupportedLanguages
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L62
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.SupportedLanguages
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.SupportedLanguages
+- code: >-
+    [YamlMember(Alias = "langs")]
+
+    [JsonProperty("langs")]
+
+    [JsonPropertyName("langs")]
+
+    public string[] SupportedLanguages { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '['
+    - ']'
+- api3: Syntax
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Syntax
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L286
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Syntax
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Syntax
+- code: >-
+    [YamlMember(Alias = "syntax")]
+
+    [JsonProperty("syntax")]
+
+    [JsonPropertyName("syntax")]
+
+    public SyntaxDetailViewModel Syntax { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: SyntaxDetailViewModel
+      url: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.html
+- api3: Type
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Type
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L235
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Type
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Type
+- code: >-
+    [YamlMember(Alias = "type")]
+
+    [JsonProperty("type")]
+
+    [JsonPropertyName("type")]
+
+    public MemberType? Type { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: MemberType
+      url: Docfx.DataContracts.ManagedReference.MemberType.html
+    - '?'
+- api3: Uid
+  id: Docfx_DataContracts_ManagedReference_ItemViewModel_Uid
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/ItemViewModel.cs#L18
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.ItemViewModel.Uid
+    commentId: P:Docfx.DataContracts.ManagedReference.ItemViewModel.Uid
+- markdown: The uid for this overwrite document, as defined in YAML header
+- code: >-
+    [YamlMember(Alias = "uid")]
+
+    [JsonProperty("uid")]
+
+    [JsonPropertyName("uid")]
+
+    [MergeOption(MergeOption.MergeKey)]
+
+    public string Uid { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+languageId: csharp

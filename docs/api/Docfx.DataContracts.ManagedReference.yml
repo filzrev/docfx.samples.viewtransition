@@ -1,0 +1,52 @@
+### YamlMime:ApiPage
+title: Namespace Docfx.DataContracts.ManagedReference
+body:
+- api1: Namespace Docfx.DataContracts.ManagedReference
+  id: Docfx_DataContracts_ManagedReference
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference
+    commentId: N:Docfx.DataContracts.ManagedReference
+- h3: Classes
+- parameters:
+  - type:
+      text: AdditionalNotes
+      url: Docfx.DataContracts.ManagedReference.AdditionalNotes.html
+  - type:
+      text: ApiParameter
+      url: Docfx.DataContracts.ManagedReference.ApiParameter.html
+  - type:
+      text: ArgumentInfo
+      url: Docfx.DataContracts.ManagedReference.ArgumentInfo.html
+  - type:
+      text: AttributeInfo
+      url: Docfx.DataContracts.ManagedReference.AttributeInfo.html
+  - type:
+      text: ExceptionInfo
+      url: Docfx.DataContracts.ManagedReference.ExceptionInfo.html
+  - type:
+      text: ItemViewModel
+      url: Docfx.DataContracts.ManagedReference.ItemViewModel.html
+  - type:
+      text: LinkInfo
+      url: Docfx.DataContracts.ManagedReference.LinkInfo.html
+  - type:
+      text: NamedArgumentInfo
+      url: Docfx.DataContracts.ManagedReference.NamedArgumentInfo.html
+  - type:
+      text: PageViewModel
+      url: Docfx.DataContracts.ManagedReference.PageViewModel.html
+  - type:
+      text: SyntaxDetailViewModel
+      url: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.html
+- h3: Enums
+- parameters:
+  - type:
+      text: LinkType
+      url: Docfx.DataContracts.ManagedReference.LinkType.html
+  - type:
+      text: MemberType
+      url: Docfx.DataContracts.ManagedReference.MemberType.html
+  - type:
+      text: SyntaxLanguage
+      url: Docfx.DataContracts.ManagedReference.SyntaxLanguage.html
+languageId: csharp

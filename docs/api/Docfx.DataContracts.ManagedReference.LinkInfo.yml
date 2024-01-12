@@ -1,0 +1,123 @@
+### YamlMime:ApiPage
+title: Class LinkInfo
+body:
+- api1: Class LinkInfo
+  id: Docfx_DataContracts_ManagedReference_LinkInfo
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/LinkInfo.cs#L12
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.LinkInfo
+    commentId: T:Docfx.DataContracts.ManagedReference.LinkInfo
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public class LinkInfo
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: LinkInfo
+    url: Docfx.DataContracts.ManagedReference.LinkInfo.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: AltText
+  id: Docfx_DataContracts_ManagedReference_LinkInfo_AltText
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/LinkInfo.cs#L32
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.LinkInfo.AltText
+    commentId: P:Docfx.DataContracts.ManagedReference.LinkInfo.AltText
+- code: >-
+    [YamlMember(Alias = "altText")]
+
+    [JsonProperty("altText")]
+
+    [JsonPropertyName("altText")]
+
+    public string AltText { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: CommentId
+  id: Docfx_DataContracts_ManagedReference_LinkInfo_CommentId
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/LinkInfo.cs#L26
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.LinkInfo.CommentId
+    commentId: P:Docfx.DataContracts.ManagedReference.LinkInfo.CommentId
+- code: >-
+    [YamlMember(Alias = "commentId")]
+
+    [JsonProperty("commentId")]
+
+    [JsonPropertyName("commentId")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    public string CommentId { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: LinkId
+  id: Docfx_DataContracts_ManagedReference_LinkInfo_LinkId
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/LinkInfo.cs#L20
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.LinkInfo.LinkId
+    commentId: P:Docfx.DataContracts.ManagedReference.LinkInfo.LinkId
+- code: >-
+    [YamlMember(Alias = "linkId")]
+
+    [MergeOption(MergeOption.MergeKey)]
+
+    [JsonProperty("linkId")]
+
+    [JsonPropertyName("linkId")]
+
+    public string LinkId { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: LinkType
+  id: Docfx_DataContracts_ManagedReference_LinkInfo_LinkType
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/LinkInfo.cs#L14
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.LinkInfo.LinkType
+    commentId: P:Docfx.DataContracts.ManagedReference.LinkInfo.LinkType
+- code: >-
+    [YamlMember(Alias = "linkType")]
+
+    [JsonProperty("linkType")]
+
+    [JsonPropertyName("linkType")]
+
+    [MergeOption(MergeOption.Ignore)]
+
+    public LinkType LinkType { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: LinkType
+      url: Docfx.DataContracts.ManagedReference.LinkType.html
+languageId: csharp

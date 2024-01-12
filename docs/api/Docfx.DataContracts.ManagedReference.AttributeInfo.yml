@@ -1,0 +1,125 @@
+### YamlMime:ApiPage
+title: Class AttributeInfo
+body:
+- api1: Class AttributeInfo
+  id: Docfx_DataContracts_ManagedReference_AttributeInfo
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AttributeInfo.cs#L12
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AttributeInfo
+    commentId: T:Docfx.DataContracts.ManagedReference.AttributeInfo
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public class AttributeInfo
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: AttributeInfo
+    url: Docfx.DataContracts.ManagedReference.AttributeInfo.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: Arguments
+  id: Docfx_DataContracts_ManagedReference_AttributeInfo_Arguments
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AttributeInfo.cs#L25
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AttributeInfo.Arguments
+    commentId: P:Docfx.DataContracts.ManagedReference.AttributeInfo.Arguments
+- code: >-
+    [YamlMember(Alias = "arguments")]
+
+    [JsonProperty("arguments")]
+
+    [JsonPropertyName("arguments")]
+
+    public List<ArgumentInfo> Arguments { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: ArgumentInfo
+      url: Docfx.DataContracts.ManagedReference.ArgumentInfo.html
+    - '>'
+- api3: Constructor
+  id: Docfx_DataContracts_ManagedReference_AttributeInfo_Constructor
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AttributeInfo.cs#L20
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AttributeInfo.Constructor
+    commentId: P:Docfx.DataContracts.ManagedReference.AttributeInfo.Constructor
+- code: >-
+    [YamlMember(Alias = "ctor")]
+
+    [JsonProperty("ctor")]
+
+    [JsonPropertyName("ctor")]
+
+    public string Constructor { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: NamedArguments
+  id: Docfx_DataContracts_ManagedReference_AttributeInfo_NamedArguments
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AttributeInfo.cs#L30
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AttributeInfo.NamedArguments
+    commentId: P:Docfx.DataContracts.ManagedReference.AttributeInfo.NamedArguments
+- code: >-
+    [YamlMember(Alias = "namedArguments")]
+
+    [JsonProperty("namedArguments")]
+
+    [JsonPropertyName("namedArguments")]
+
+    public List<NamedArgumentInfo> NamedArguments { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: NamedArgumentInfo
+      url: Docfx.DataContracts.ManagedReference.NamedArgumentInfo.html
+    - '>'
+- api3: Type
+  id: Docfx_DataContracts_ManagedReference_AttributeInfo_Type
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/AttributeInfo.cs#L14
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.AttributeInfo.Type
+    commentId: P:Docfx.DataContracts.ManagedReference.AttributeInfo.Type
+- code: >-
+    [YamlMember(Alias = "type")]
+
+    [JsonProperty("type")]
+
+    [JsonPropertyName("type")]
+
+    public string Type { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+languageId: csharp

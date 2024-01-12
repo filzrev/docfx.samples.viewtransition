@@ -1,0 +1,117 @@
+### YamlMime:ApiPage
+title: Class DotnetApiOptions
+body:
+- api1: Class DotnetApiOptions
+  id: Docfx_Dotnet_DotnetApiOptions
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/DotnetApiOptions.cs#L35
+  metadata:
+    uid: Docfx.Dotnet.DotnetApiOptions
+    commentId: T:Docfx.Dotnet.DotnetApiOptions
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.Dotnet
+      url: Docfx.Dotnet.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- markdown: Provides options to be used with <xref href="Docfx.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String%2cDocfx.Dotnet.DotnetApiOptions)" data-throw-if-not-resolved="false"></xref>.
+- code: public class DotnetApiOptions
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: DotnetApiOptions
+    url: Docfx.Dotnet.DotnetApiOptions.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: IncludeApi
+  id: Docfx_Dotnet_DotnetApiOptions_IncludeApi
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/DotnetApiOptions.cs#L41
+  metadata:
+    uid: Docfx.Dotnet.DotnetApiOptions.IncludeApi
+    commentId: P:Docfx.Dotnet.DotnetApiOptions.IncludeApi
+- markdown: >-
+    Customizes the namespaces and types to include in the API catalog.
+
+    Excluding a parent symbol exclude all child symbols underneath it.
+- code: public Func<ISymbol, SymbolIncludeState>? IncludeApi { get; init; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: Func
+      url: https://learn.microsoft.com/dotnet/api/system.func-2
+    - <
+    - text: ISymbol
+      url: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.isymbol
+    - ','
+    - " "
+    - text: SymbolIncludeState
+      url: Docfx.Dotnet.SymbolIncludeState.html
+    - '>'
+    - '?'
+- api3: IncludeAttribute
+  id: Docfx_Dotnet_DotnetApiOptions_IncludeAttribute
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/DotnetApiOptions.cs#L47
+  metadata:
+    uid: Docfx.Dotnet.DotnetApiOptions.IncludeAttribute
+    commentId: P:Docfx.Dotnet.DotnetApiOptions.IncludeAttribute
+- markdown: >-
+    Customizes the attributes to include in the API catalog.
+
+    Excluding a parent symbol exclude all child symbols underneath it.
+- code: public Func<ISymbol, SymbolIncludeState>? IncludeAttribute { get; init; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: Func
+      url: https://learn.microsoft.com/dotnet/api/system.func-2
+    - <
+    - text: ISymbol
+      url: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.isymbol
+    - ','
+    - " "
+    - text: SymbolIncludeState
+      url: Docfx.Dotnet.SymbolIncludeState.html
+    - '>'
+    - '?'
+- api3: SourceUrl
+  id: Docfx_Dotnet_DotnetApiOptions_SourceUrl
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/DotnetApiOptions.cs#L53
+  metadata:
+    uid: Docfx.Dotnet.DotnetApiOptions.SourceUrl
+    commentId: P:Docfx.Dotnet.DotnetApiOptions.SourceUrl
+- markdown: >-
+    Customizes the view source URL for files in a git repository.
+
+    Returns `null` to use built-in support for GitHub, Azure Repos, etc.
+- code: public Func<GitSource, string?>? SourceUrl { get; init; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: Func
+      url: https://learn.microsoft.com/dotnet/api/system.func-2
+    - <
+    - GitSource
+    - ','
+    - " "
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '?'
+    - '>'
+    - '?'
+languageId: csharp

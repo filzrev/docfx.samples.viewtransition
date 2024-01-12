@@ -1,0 +1,139 @@
+### YamlMime:ApiPage
+title: Class Docset
+body:
+- api1: Class Docset
+  id: Docfx_Docset
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.App/Docset.cs#L13
+  metadata:
+    uid: Docfx.Docset
+    commentId: T:Docfx.Docset
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx
+      url: Docfx.html
+  - name: Assembly
+    value: Docfx.App.dll
+- markdown: >-
+    Provides access to a set of documentations
+
+    and their associated configs, compilations and models.
+- code: public static class Docset
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: Docset
+    url: Docfx.Docset.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Methods
+- api3: Build(string)
+  id: Docfx_Docset_Build_System_String_
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.App/Docset.cs#L20
+  metadata:
+    uid: Docfx.Docset.Build(System.String)
+    commentId: M:Docfx.Docset.Build(System.String)
+- markdown: Builds a docset specified by docfx.json config.
+- code: public static Task Build(string configPath)
+- h4: Parameters
+- parameters:
+  - name: configPath
+    type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    description: The path to docfx.json config file.
+- h4: Returns
+- parameters:
+  - type:
+    - text: Task
+      url: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+    description: A task to await for build completion.
+- api3: Build(string, BuildOptions)
+  id: Docfx_Docset_Build_System_String_Docfx_BuildOptions_
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.App/Docset.cs#L31
+  metadata:
+    uid: Docfx.Docset.Build(System.String,Docfx.BuildOptions)
+    commentId: M:Docfx.Docset.Build(System.String,Docfx.BuildOptions)
+- markdown: Builds a docset specified by docfx.json config.
+- code: public static Task Build(string configPath, BuildOptions options)
+- h4: Parameters
+- parameters:
+  - name: configPath
+    type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    description: The path to docfx.json config file.
+  - name: options
+    type:
+    - text: BuildOptions
+      url: Docfx.BuildOptions.html
+    description: The build options.
+- h4: Returns
+- parameters:
+  - type:
+    - text: Task
+      url: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+    description: A task to await for build completion.
+- api3: Pdf(string)
+  id: Docfx_Docset_Pdf_System_String_
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.App/Docset.cs#L45
+  metadata:
+    uid: Docfx.Docset.Pdf(System.String)
+    commentId: M:Docfx.Docset.Pdf(System.String)
+- markdown: Builds a pdf specified by docfx.json config.
+- code: public static Task Pdf(string configPath)
+- h4: Parameters
+- parameters:
+  - name: configPath
+    type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    description: The path to docfx.json config file.
+- h4: Returns
+- parameters:
+  - type:
+    - text: Task
+      url: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+    description: A task to await for build completion.
+- api3: Pdf(string, BuildOptions)
+  id: Docfx_Docset_Pdf_System_String_Docfx_BuildOptions_
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.App/Docset.cs#L56
+  metadata:
+    uid: Docfx.Docset.Pdf(System.String,Docfx.BuildOptions)
+    commentId: M:Docfx.Docset.Pdf(System.String,Docfx.BuildOptions)
+- markdown: Builds a pdf specified by docfx.json config.
+- code: public static Task Pdf(string configPath, BuildOptions options)
+- h4: Parameters
+- parameters:
+  - name: configPath
+    type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    description: The path to docfx.json config file.
+  - name: options
+    type:
+    - text: BuildOptions
+      url: Docfx.BuildOptions.html
+    description: The build options.
+- h4: Returns
+- parameters:
+  - type:
+    - text: Task
+      url: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+    description: A task to await for build completion.
+languageId: csharp

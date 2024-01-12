@@ -1,0 +1,31 @@
+### YamlMime:ApiPage
+title: Enum MemberLayout
+body:
+- api1: Enum MemberLayout
+  id: Docfx_MemberLayout
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/MetadataJsonConfig.cs#L12
+  metadata:
+    uid: Docfx.MemberLayout
+    commentId: T:Docfx.MemberLayout
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx
+      url: Docfx.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- markdown: Specifies the layout of members.
+- code: public enum MemberLayout
+- h2: Fields
+- parameters:
+  - name: SamePage
+    default: "0"
+    description: >+
+      Place members in the same page as their containing type
+
+  - name: SeparatePages
+    default: "1"
+    description: >+
+      Place members in separate pages
+
+languageId: csharp

@@ -1,0 +1,151 @@
+### YamlMime:ApiPage
+title: Class PageViewModel
+body:
+- api1: Class PageViewModel
+  id: Docfx_DataContracts_ManagedReference_PageViewModel
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/PageViewModel.cs#L12
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.PageViewModel
+    commentId: T:Docfx.DataContracts.ManagedReference.PageViewModel
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public class PageViewModel
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: PageViewModel
+    url: Docfx.DataContracts.ManagedReference.PageViewModel.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: Items
+  id: Docfx_DataContracts_ManagedReference_PageViewModel_Items
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/PageViewModel.cs#L14
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.PageViewModel.Items
+    commentId: P:Docfx.DataContracts.ManagedReference.PageViewModel.Items
+- code: >-
+    [YamlMember(Alias = "items")]
+
+    [JsonProperty("items")]
+
+    [JsonPropertyName("items")]
+
+    public List<ItemViewModel> Items { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: ItemViewModel
+      url: Docfx.DataContracts.ManagedReference.ItemViewModel.html
+    - '>'
+- api3: MemberLayout
+  id: Docfx_DataContracts_ManagedReference_PageViewModel_MemberLayout
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/PageViewModel.cs#L31
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.PageViewModel.MemberLayout
+    commentId: P:Docfx.DataContracts.ManagedReference.PageViewModel.MemberLayout
+- code: >-
+    [YamlMember(Alias = "memberLayout")]
+
+    [JsonProperty("memberLayout")]
+
+    [JsonPropertyName("memberLayout")]
+
+    public MemberLayout MemberLayout { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: MemberLayout
+      url: Docfx.MemberLayout.html
+- api3: Metadata
+  id: Docfx_DataContracts_ManagedReference_PageViewModel_Metadata
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/PageViewModel.cs#L36
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.PageViewModel.Metadata
+    commentId: P:Docfx.DataContracts.ManagedReference.PageViewModel.Metadata
+- code: >-
+    [ExtensibleMember]
+
+    [JsonExtensionData]
+
+    [JsonExtensionData]
+
+    public Dictionary<string, object> Metadata { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: Dictionary
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - ','
+    - " "
+    - text: object
+      url: https://learn.microsoft.com/dotnet/api/system.object
+    - '>'
+- api3: References
+  id: Docfx_DataContracts_ManagedReference_PageViewModel_References
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/PageViewModel.cs#L19
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.PageViewModel.References
+    commentId: P:Docfx.DataContracts.ManagedReference.PageViewModel.References
+- code: >-
+    [YamlMember(Alias = "references")]
+
+    [JsonProperty("references")]
+
+    [JsonPropertyName("references")]
+
+    public List<ReferenceViewModel> References { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - ReferenceViewModel
+    - '>'
+- api3: ShouldSkipMarkup
+  id: Docfx_DataContracts_ManagedReference_PageViewModel_ShouldSkipMarkup
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/PageViewModel.cs#L26
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.PageViewModel.ShouldSkipMarkup
+    commentId: P:Docfx.DataContracts.ManagedReference.PageViewModel.ShouldSkipMarkup
+- code: >-
+    [YamlMember(Alias = "shouldSkipMarkup")]
+
+    [JsonProperty("shouldSkipMarkup")]
+
+    [JsonPropertyName("shouldSkipMarkup")]
+
+    public bool ShouldSkipMarkup { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: bool
+      url: https://learn.microsoft.com/dotnet/api/system.boolean
+languageId: csharp

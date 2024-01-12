@@ -1,0 +1,190 @@
+### YamlMime:ApiPage
+title: Class SyntaxDetailViewModel
+body:
+- api1: Class SyntaxDetailViewModel
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L15
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel
+    commentId: T:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public class SyntaxDetailViewModel
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: SyntaxDetailViewModel
+    url: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: Content
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel_Content
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L17
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Content
+    commentId: P:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Content
+- code: >-
+    [YamlMember(Alias = "content")]
+
+    [JsonProperty("content")]
+
+    [JsonPropertyName("content")]
+
+    public string Content { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: ContentForCSharp
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel_ContentForCSharp
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L27
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.ContentForCSharp
+    commentId: P:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.ContentForCSharp
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string ContentForCSharp { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: ContentForVB
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel_ContentForVB
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L50
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.ContentForVB
+    commentId: P:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.ContentForVB
+- code: >-
+    [YamlIgnore]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public string ContentForVB { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+- api3: Contents
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel_Contents
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L22
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Contents
+    commentId: P:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Contents
+- code: >-
+    [ExtensibleMember("content.")]
+
+    [JsonIgnore]
+
+    [JsonIgnore]
+
+    public SortedList<string, string> Contents { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: SortedList
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2
+    - <
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - ','
+    - " "
+    - text: string
+      url: https://learn.microsoft.com/dotnet/api/system.string
+    - '>'
+- api3: Parameters
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel_Parameters
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L73
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Parameters
+    commentId: P:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Parameters
+- code: >-
+    [YamlMember(Alias = "parameters")]
+
+    [JsonProperty("parameters")]
+
+    [JsonPropertyName("parameters")]
+
+    public List<ApiParameter> Parameters { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: ApiParameter
+      url: Docfx.DataContracts.ManagedReference.ApiParameter.html
+    - '>'
+- api3: Return
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel_Return
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L83
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Return
+    commentId: P:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.Return
+- code: >-
+    [YamlMember(Alias = "return")]
+
+    [JsonProperty("return")]
+
+    [JsonPropertyName("return")]
+
+    public ApiParameter Return { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: ApiParameter
+      url: Docfx.DataContracts.ManagedReference.ApiParameter.html
+- api3: TypeParameters
+  id: Docfx_DataContracts_ManagedReference_SyntaxDetailViewModel_TypeParameters
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxDetailViewModel.cs#L78
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.TypeParameters
+    commentId: P:Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.TypeParameters
+- code: >-
+    [YamlMember(Alias = "typeParameters")]
+
+    [JsonProperty("typeParameters")]
+
+    [JsonPropertyName("typeParameters")]
+
+    public List<ApiParameter> TypeParameters { get; set; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: List
+      url: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    - <
+    - text: ApiParameter
+      url: Docfx.DataContracts.ManagedReference.ApiParameter.html
+    - '>'
+languageId: csharp

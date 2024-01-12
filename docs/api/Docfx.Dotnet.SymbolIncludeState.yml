@@ -1,0 +1,36 @@
+### YamlMime:ApiPage
+title: Enum SymbolIncludeState
+body:
+- api1: Enum SymbolIncludeState
+  id: Docfx_Dotnet_SymbolIncludeState
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/DotnetApiOptions.cs#L14
+  metadata:
+    uid: Docfx.Dotnet.SymbolIncludeState
+    commentId: T:Docfx.Dotnet.SymbolIncludeState
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.Dotnet
+      url: Docfx.Dotnet.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- markdown: Return state of the <xref href="Docfx.Dotnet.DotnetApiOptions.IncludeApi" data-throw-if-not-resolved="false"></xref> and <xref href="Docfx.Dotnet.DotnetApiOptions.IncludeAttribute" data-throw-if-not-resolved="false"></xref> callbacks.
+- code: public enum SymbolIncludeState
+- h2: Fields
+- parameters:
+  - name: Default
+    default: "0"
+    description: >+
+      Determines whether to include or not using the default configuration.
+
+  - name: Exclude
+    default: "2"
+    description: >+
+      Ignores default rules and exclude the symbol from the API catalog.
+
+  - name: Include
+    default: "1"
+    description: >+
+      Ignore default rules and include the symbol in the API catalog.
+
+languageId: csharp

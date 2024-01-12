@@ -1,0 +1,56 @@
+### YamlMime:ApiPage
+title: Enum MemberType
+body:
+- api1: Enum MemberType
+  id: Docfx_DataContracts_ManagedReference_MemberType
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/MemberType.cs#L6
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.MemberType
+    commentId: T:Docfx.DataContracts.ManagedReference.MemberType
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public enum MemberType
+- h2: Fields
+- parameters:
+  - name: Assembly
+    default: "2"
+  - name: AttachedEvent
+    default: "16"
+  - name: AttachedProperty
+    default: "17"
+  - name: Class
+    default: "4"
+  - name: Constructor
+    default: "12"
+  - name: Container
+    default: "15"
+  - name: Default
+    default: "0"
+  - name: Delegate
+    default: "7"
+  - name: Enum
+    default: "8"
+  - name: Event
+    default: "11"
+  - name: Field
+    default: "9"
+  - name: Interface
+    default: "5"
+  - name: Method
+    default: "13"
+  - name: Namespace
+    default: "3"
+  - name: Operator
+    default: "14"
+  - name: Property
+    default: "10"
+  - name: Struct
+    default: "6"
+  - name: Toc
+    default: "1"
+languageId: csharp

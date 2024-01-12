@@ -1,0 +1,26 @@
+### YamlMime:ApiPage
+title: Enum SyntaxLanguage
+body:
+- api1: Enum SyntaxLanguage
+  id: Docfx_DataContracts_ManagedReference_SyntaxLanguage
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.Dotnet/ManagedReference/Models/SyntaxLanguage.cs#L6
+  metadata:
+    uid: Docfx.DataContracts.ManagedReference.SyntaxLanguage
+    commentId: T:Docfx.DataContracts.ManagedReference.SyntaxLanguage
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx.DataContracts.ManagedReference
+      url: Docfx.DataContracts.ManagedReference.html
+  - name: Assembly
+    value: Docfx.Dotnet.dll
+- code: public enum SyntaxLanguage
+- h2: Fields
+- parameters:
+  - name: CSharp
+    default: "1"
+  - name: Default
+    default: "0"
+  - name: VB
+    default: "2"
+languageId: csharp

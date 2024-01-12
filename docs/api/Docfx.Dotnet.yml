@@ -1,0 +1,25 @@
+### YamlMime:ApiPage
+title: Namespace Docfx.Dotnet
+body:
+- api1: Namespace Docfx.Dotnet
+  id: Docfx_Dotnet
+  metadata:
+    uid: Docfx.Dotnet
+    commentId: N:Docfx.Dotnet
+- h3: Classes
+- parameters:
+  - type:
+      text: DotnetApiCatalog
+      url: Docfx.Dotnet.DotnetApiCatalog.html
+    description: Provides access to a .NET API definitions and their associated documentation.
+  - type:
+      text: DotnetApiOptions
+      url: Docfx.Dotnet.DotnetApiOptions.html
+    description: Provides options to be used with <xref href="Docfx.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String%2cDocfx.Dotnet.DotnetApiOptions)" data-throw-if-not-resolved="false"></xref>.
+- h3: Enums
+- parameters:
+  - type:
+      text: SymbolIncludeState
+      url: Docfx.Dotnet.SymbolIncludeState.html
+    description: Return state of the <xref href="Docfx.Dotnet.DotnetApiOptions.IncludeApi" data-throw-if-not-resolved="false"></xref> and <xref href="Docfx.Dotnet.DotnetApiOptions.IncludeAttribute" data-throw-if-not-resolved="false"></xref> callbacks.
+languageId: csharp

@@ -1,0 +1,62 @@
+### YamlMime:ApiPage
+title: Class BuildOptions
+body:
+- api1: Class BuildOptions
+  id: Docfx_BuildOptions
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.App/BuildOptions.cs#L13
+  metadata:
+    uid: Docfx.BuildOptions
+    commentId: T:Docfx.BuildOptions
+- facts:
+  - name: Namespace
+    value:
+      text: Docfx
+      url: Docfx.html
+  - name: Assembly
+    value: Docfx.App.dll
+- markdown: Provides options to be used with <xref href="Docfx.Docset.Build(System.String%2cDocfx.BuildOptions)" data-throw-if-not-resolved="false"></xref>.
+- code: public class BuildOptions
+- h4: Inheritance
+- inheritance:
+  - text: object
+    url: https://learn.microsoft.com/dotnet/api/system.object
+  - text: BuildOptions
+    url: Docfx.BuildOptions.html
+- h4: Inherited Members
+- list:
+  - text: object.Equals(object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - text: object.Equals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - text: object.GetHashCode()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - text: object.GetType()
+    url: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - text: object.MemberwiseClone()
+    url: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - text: object.ReferenceEquals(object?, object?)
+    url: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - text: object.ToString()
+    url: https://learn.microsoft.com/dotnet/api/system.object.tostring
+- h2: Properties
+- api3: ConfigureMarkdig
+  id: Docfx_BuildOptions_ConfigureMarkdig
+  src: https://github.com/filzrev/docfx/blob/main/src/Docfx.App/BuildOptions.cs#L18
+  metadata:
+    uid: Docfx.BuildOptions.ConfigureMarkdig
+    commentId: P:Docfx.BuildOptions.ConfigureMarkdig
+- markdown: Configures the markdig markdown pipeline.
+- code: public Func<MarkdownPipelineBuilder, MarkdownPipelineBuilder>? ConfigureMarkdig { get; init; }
+- h4: Property Value
+- parameters:
+  - type:
+    - text: Func
+      url: https://learn.microsoft.com/dotnet/api/system.func-2
+    - <
+    - MarkdownPipelineBuilder
+    - ','
+    - " "
+    - MarkdownPipelineBuilder
+    - '>'
+    - '?'
+languageId: csharp
