@@ -6,8 +6,14 @@ This repository is intended to test [View Transitions](https://github.com/WICG/v
 - Original site:
   - https://dotnet.github.io/docfx
 
+`MPA (Multi-page application)` is enabled by adding following `<meta>` tag to template layout.
+
+> `<meta name="view-transition" content="same-origin">`
+
 > [!NOTE]
-> Currently it requires `viewTransition API for navigations` feature enabled manually on Chrome.
+> To use MPA (Multi-page application) view transitions.
+> Currently it requires to enable `viewTransition API for navigations` feature on Chrome.
+>> chrome://flags/#view-transition-on-navigation
 
 
 
