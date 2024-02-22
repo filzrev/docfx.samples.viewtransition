@@ -13,6 +13,7 @@ This repository is intended to test [View Transitions](https://github.com/WICG/v
 > [!NOTE]
 > To use MPA (Multi-page application) view transitions.
 > Currently it requires to enable `viewTransition API for navigations` feature on Chrome.
+> And need to restart browser.
 >> chrome://flags/#view-transition-on-navigation
 
 
